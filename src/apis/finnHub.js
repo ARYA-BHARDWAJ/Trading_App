@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const TOKEN = "cc26pu2ad3icrd10orqg";
+const TOKEN = process.env.API_KEY;
 
 export default axios.create({
   baseURL: "https://finnhub.io/api/v1",
